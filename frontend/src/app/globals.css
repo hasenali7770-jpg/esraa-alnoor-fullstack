@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body{
+  background: radial-gradient(1200px 600px at 15% 10%, rgba(42,125,143,0.20), transparent 55%),
+              radial-gradient(900px 500px at 80% 30%, rgba(255,255,255,0.06), transparent 50%),
+              linear-gradient(180deg, #071021 0%, #060C18 100%);
+  color: #EAF2FF;
+}
+
+.glass{
+  background: linear-gradient(180deg, rgba(15,26,46,0.85) 0%, rgba(12,22,42,0.65) 100%);
+  border: 1px solid rgba(30,43,68,0.9);
+  box-shadow: 0 10px 35px rgba(0,0,0,0.35);
+  backdrop-filter: blur(10px);
+}
